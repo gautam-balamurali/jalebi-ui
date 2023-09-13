@@ -7,4 +7,5 @@ export const ComponentsDatabase = [
   "Heading",
   "Image",
   "Input",
+  "Text",
 ];

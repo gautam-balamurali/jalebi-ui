@@ -92,8 +92,6 @@
 }
 ::-webkit-scrollbar-track {
   background-color: var(--dark-red-color);
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb {

@@ -11,6 +11,13 @@
 
 * [View Live](https://jalebi-ui-gautam-balamurali.netlify.app)
 
+## Next Steps
+
+* Make it screen responsive.
+* Add more generic custom components.
+* Add routing for each component.
+* Refactoring and modularization.
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
