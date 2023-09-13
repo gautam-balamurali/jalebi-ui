@@ -122,6 +122,30 @@ export const InputDocs = () => {
           theme={paraisoDark}
         />
       </p>
+
+      <h3>Adding an onChange Handler</h3>
+      <p>
+        You can add an <code>onChange</code> handler to the Input component to
+        listen for input value changes. Pass a function to the{" "}
+        <code>onChange</code> prop to handle the change events.
+      </p>
+      <div className="usage">
+        <Input
+          placeholder="Enter some text"
+          onChange={(value) => console.log("Input value:", value)}
+        />
+      </div>
+      <p>
+        <CodeBlock
+          text={`
+          <Input placeholder="Enter some text" onChange={(value) => console.log("Input value:", value)} />
+        `}
+          language="jsx"
+          showLineNumbers={false}
+          className="code-block"
+          theme={paraisoDark}
+        />
+      </p>
     </div>
   );
 };

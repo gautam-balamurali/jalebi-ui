@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <div className="home">
       <div className="home-title">🎨Jalebi-UI🖌️</div>
+      <h2>Sweeten Your UI with Jalebi: The React Component Library!</h2>
       <p className="home-line">
-        Make Custom <span className="home-react">React</span> Components{" "}
-        <br />
-        in seconds!
+        Make Custom <span className="home-react">React</span> Components in
+        seconds!
       </p>
       <div class="home-buttons">
         <span className="home-button-I">

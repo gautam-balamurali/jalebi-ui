@@ -7,7 +7,8 @@ import { useDocsContext } from "../../../core/contexts/DocsContext";
 export const SideBar = ({ showSidebar, setShowSidebar }) => {
   const {
     docsComponentToDisplay,
-    setDocsComponentToDisplay
+    setDocsComponentToDisplay,
+    handleSearchInput,
   } = useDocsContext();
 
   return (
@@ -18,7 +19,7 @@ export const SideBar = ({ showSidebar, setShowSidebar }) => {
             ? showSidebar
               ? "block"
               : "none"
-            : "inline-flex"
+            : "inline-flex",
       }}
       className="sidebar"
     >
@@ -30,7 +31,6 @@ export const SideBar = ({ showSidebar, setShowSidebar }) => {
           width="24"
           height="24"
           viewBox="0 0 172 172"
-          // style=" fill:#26e07f;"
         >
           <g
             fill="none"
@@ -46,7 +46,6 @@ export const SideBar = ({ showSidebar, setShowSidebar }) => {
             fontWeight="none"
             fontSize="none"
             textAnchor="none"
-            // style="mix-blend-mode: normal"
           >
             <path d="M0,172v-172h172v172z" fill="none"></path>
             <g fill="#20a546">
@@ -55,7 +54,7 @@ export const SideBar = ({ showSidebar, setShowSidebar }) => {
           </g>
         </svg>
 
-        <Input variant="unstyled" />
+        <Input variant="unstyled" onChange={handleSearchInput} />
       </div>
       <div className="listing">
         <h2>Getting Started</h2>
