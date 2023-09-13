@@ -1,0 +1,49 @@
+/* Textarea Styles */
+.textarea {
+  /* Common styles for all textareas */
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/* Variant: basic */
+.basic-textarea {
+  /* Basic textarea styles */
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+/* Variant: special */
+.special-textarea {
+  /* Special textarea styles */
+  background-color: #f0f0f0;
+  border-color: #ff6600;
+  color: #333;
+}
+
+/* Variant: custom (add your own variants) */
+.custom-textarea {
+  /* Custom textarea styles */
+  background-color: #007bff;
+  border-color: #0056b3;
+  color: white;
+}
+
+/* Add more variants as needed */
+
+/* Size adjustments */
+.textarea-lg {
+  font-size: 16px;
+}
+
+.textarea-md {
+  font-size: 14px;
+}
+
+.textarea-sm {
+  font-size: 12px;
+}
