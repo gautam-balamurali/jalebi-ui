@@ -1,0 +1,45 @@
+/* Heading Styles */
+.heading {
+  /* Common styles for all headings */
+  margin-bottom: 10px;
+}
+
+.default-heading {
+  color: #333;
+}
+
+/* Variant: basic */
+.basic-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Variant: special */
+.special-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+/* Variant: custom (add your own variants) */
+.custom-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Add more variants as needed */
+
+/* Size adjustments */
+.heading-lg {
+  font-size: 36px;
+}
+
+.heading-md {
+  font-size: 28px;
+}
+
+.heading-sm {
+  font-size: 18px;
+}
