@@ -1,0 +1,29 @@
+.documentation {
+  width: 70%;
+  margin-right: 3rem;
+  box-sizing: border-box;
+}
+
+.component-doc{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.component-doc h2{
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.component-doc h3{
+  text-transform: lowercase;
+  text-decoration: underline;
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .documentation {
+    width: 90vw;
+    margin: auto;
+  }
+}
