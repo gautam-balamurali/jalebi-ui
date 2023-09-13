@@ -1,5 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #50abf5;
+  --secondary-color: #f6f9fb;
+  --light-shade-color: #aec0ca;
+  --medium-shade-color: #668799;
+  --dark-shade-color: #1f4e69;
+  --white-color: #ffffff;
+  --red-shade-600: #dc2626;
+  --red-shade-700: #b91c1c;
+  --dark-red-color: #a52020;
+  --ghost-red-color: #f3a7a7;
+  --xs-font-size: 0.75rem;
+  --sm-font-size: 0.875rem;
+  --md-font-size: 1rem;
+  --lg-font-size: 1.125rem;
+  --xs-button-padding: 0.25rem 0.5rem;
+  --sm-button-padding: 0.45rem 0.85rem;
+  --md-button-padding: 0.55rem 1rem;
+  --lg-button-padding: 0.75rem 1.25rem;
+}
+
 .App {
-  text-align: center;
+  max-width: 100vw;
+  font-family: sans-serif;
+  background-color: #fff7ed;
+}
+
+.section {
+  min-height: calc(100vh - 4rem - 4rem);
 }
 
 .App-logo {
@@ -28,6 +61,23 @@
   color: #61dafb;
 }
 
+.main-area {
+  display: flex;
+  padding-top: 2rem;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    overflow-x: hidden;
+  }
+  .main-area {
+    display: block;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +85,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--dark-red-color);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: var(--dark-red-color);
+}
+
+button,
+label,
+select {
+  cursor: pointer;
+  font-family: sans-serif;
 }
