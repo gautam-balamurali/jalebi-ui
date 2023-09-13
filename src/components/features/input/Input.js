@@ -1,3 +1,4 @@
+import React from "react";
 import "./Input.css";
 
 export const Input = ({
@@ -6,8 +7,16 @@ export const Input = ({
   variant,
   size,
   isDisabled,
-  isRequired
+  isRequired,
+  onChange,
 }) => {
+  const handleInputChange = (event) => {
+    // Call the provided onChange function with the new input value
+    if (onChange) {
+      onChange(event);
+    }
+  };
+
   return (
     <div>
       <input
@@ -16,15 +25,17 @@ export const Input = ({
         className={`input ${variant}-input ${size}-input`}
         type={inputType}
         placeholder={placeholder}
-      ></input>
+        onChange={handleInputChange} // Attach the onChange event handler
+      />
     </div>
   );
 };
+
 Input.defaultProps = {
   inputType: "text",
   placeholder: "Enter some text",
   variant: "basic",
   size: "sm",
   isDisabled: false,
-  isRequired: false
+  isRequired: false,
 };

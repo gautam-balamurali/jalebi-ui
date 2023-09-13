@@ -21,6 +21,23 @@
   padding-top: 1rem;
 }
 
+.component-doc-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.component-doc-heading .heading-2{
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.component-doc-heading .heading-3{
+  text-transform: lowercase;
+  text-decoration: underline;
+  padding-top: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
   .documentation {
     width: 90vw;

@@ -1,22 +1,34 @@
-# 🎨Jalebi-UI🖌️
+<div align="center"><h1>🎨Jalebi-UI🖌️</h1></div>
 
-* A component library react app.
+- Sweeten Your UI with Jalebi: The React Component Library!
+* A component library to make custom react components in seconds!
+* Jalebi-UI provides the following customised components:
+  1. Alert
+  2. Avatar
+  3. Badge
+  4. Button
+  5. Card
+  6. Heading
+  7. Image
+  8. Input
+  9. Text
 
 ## Tech Stack
 
-* React
-* Netlify
+- React
+- Netlify
 
 ## Preview
 
-* [View Live](https://jalebi-ui-gautam-balamurali.netlify.app)
+- [View Live](https://jalebi-ui-gautam-balamurali.netlify.app)
 
 ## Next Steps
 
-* Make it screen responsive.
-* Add more generic custom components.
-* Add routing for each component.
-* Refactoring and modularization.
+- Make it screen responsive.
+- Add more generic custom components.
+- Add more variants to existing components.
+- Add routing for each component.
+- Refactoring and modularization.
 
 ## Getting Started with Create React App
 
