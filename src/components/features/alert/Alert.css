@@ -1,0 +1,92 @@
+.alert-box {
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 0 0 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.alert-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.alert-box > * {
+  padding-right: 0.5rem;
+}
+.svg-icon-alert {
+  width: auto;
+  height: 1rem;
+  position: absolute;
+  top: 0.9rem;
+  right: 1px;
+  cursor: pointer;
+}
+.error-alert-subtle {
+  background: rgb(254, 215, 215);
+}
+.info-alert-subtle {
+  background: rgb(190, 227, 248);
+}
+.warning-alert-subtle {
+  background: rgb(254, 235, 200);
+}
+.success-alert-subtle {
+  background: rgb(198, 246, 213);
+}
+
+/* Solid variant css */
+.error-alert-solid {
+  background: #e53e3e;
+  color: white;
+}
+.info-alert-solid {
+  background: #3182ce;
+  color: white;
+}
+.warning-alert-solid {
+  background: #dd6b20;
+  color: white;
+}
+.success-alert-solid {
+  background: #38a169;
+  color: white;
+}
+
+/* Left Accent CSS*/
+.error-alert-left-accent {
+  background: rgb(254, 215, 215);
+  border-left: 4px solid #e53e3e;
+}
+.info-alert-left-accent {
+  background: rgb(190, 227, 248);
+  border-left: 4px solid #3182ce;
+}
+.warning-alert-left-accent {
+  background: rgb(254, 235, 200);
+  border-left: 4px solid #dd6b20;
+}
+.success-alert-left-accent {
+  background: rgb(198, 246, 213);
+  border-left: 4px solid #38a169;
+}
+
+/* Top Accent Alert CSS */
+.error-alert-top-accent {
+  background: rgb(254, 215, 215);
+  border-top: 4px solid #e53e3e;
+}
+.info-alert-top-accent {
+  background: rgb(190, 227, 248);
+  border-top: 4px solid #3182ce;
+}
+.warning-alert-top-accent {
+  background: rgb(254, 235, 200);
+  border-top: 4px solid #dd6b20;
+}
+.success-alert-top-accent {
+  background: rgb(198, 246, 213);
+  border-top: 4px solid #38a169;
+}

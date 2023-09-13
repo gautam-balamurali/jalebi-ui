@@ -1,0 +1,78 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  border-left: 1px solid var(--dark-red-color);
+  margin: 0;
+  width: 25%;
+  position: fixed;
+  top: 8rem;
+  right: 5rem;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid var(--dark-red-color);
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  margin-left: 2rem;
+}
+
+.listing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.listing > h2 {
+  margin-left: 2rem;
+}
+
+.listing > .title {
+  border-left: 3px solid white;
+  align-self: flex-start;
+  padding-left: 2rem;
+  font-size: 16px;
+  margin: 0;
+  padding: 6px 0;
+  padding-left: 2rem;
+  color: black;
+}
+
+.listing > .title:hover {
+  color: var(--dark-red-color);
+  cursor: pointer;
+  border-left: 3px solid var(--dark-red-color);
+}
+
+.listing > .title-active {
+  color: var(--dark-red-color);
+  font-weight: 600;
+  border-left: 3px solid var(--dark-red-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+    width: 100vw;
+    background: white;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .listing > p {
+    font-size: 24px;
+    padding: 12px;
+    padding-left: 2rem;
+  }
+
+  .searchbar {
+    width: 80%;
+  }
+}
