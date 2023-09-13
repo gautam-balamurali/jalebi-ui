@@ -14,9 +14,9 @@ export default function Home() {
     <div className="home">
       <div className="home-title">🎨Jalebi-UI🖌️</div>
       <p className="home-line">
-        Make Custom <span className="home-react">React</span> Components using{" "}
+        Make Custom <span className="home-react">React</span> Components{" "}
         <br />
-        Jalebi-UI in seconds!
+        in seconds!
       </p>
       <div class="home-buttons">
         <span className="home-button-I">
