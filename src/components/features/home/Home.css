@@ -1,0 +1,37 @@
+.home {
+  background-color: #fff7ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 1rem;
+}
+
+.home-title {
+  color: var(--dark-red-color);
+  font-size: 4rem;
+}
+
+.home-react {
+  background: var(--dark-red-color);
+  color: #fff7ed;
+  padding: 0 0.1rem;
+  border-radius: 2px;
+}
+
+.home-line {
+  color: var(--dark-red-color);
+  font-size: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button-I {
+  margin-right: 1rem;
+}

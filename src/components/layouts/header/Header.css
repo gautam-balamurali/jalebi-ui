@@ -1,0 +1,84 @@
+.page-header {
+  border-top: 5px solid var(--dark-red-color);
+}
+
+.container {
+  padding: 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.icon-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jalebi-ui-heading {
+  color: var(--dark-red-color);
+  font-size: 2.5rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav > p,
+.git-link {
+  margin-left: 0.85rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+.header-nav > p:hover,
+.git-link:hover {
+  color: var(--dark-red-color);
+  border-bottom: 3px solid var(--dark-red-color);
+}
+
+.header-nav > p:active,
+.git-link:active {
+  color: var(--dark-red-color);
+  border-bottom: 3px solid var(--dark-red-color);
+}
+
+.open-sidebar-icon {
+  position: fixed;
+  right: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-header {
+    border-bottom: 2px solid var(--dark-red-color);
+    border-top: none;
+    padding: 0.5rem;
+    z-index: 3;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .header {
+    justify-content: flex-start;
+  }
+
+  .fork-ui-heading {
+    display: none;
+  }
+
+  .open-sidebar-icon {
+    display: block;
+  }
+}

@@ -1,0 +1,28 @@
+.xs-image {
+  width: 50px;
+  height: 50px;
+}
+.sm-image {
+  width: 100px;
+  height: 100px;
+}
+.md-image {
+  width: 150px;
+  height: 150px;
+}
+.lg-image {
+  width: 200px;
+  height: 200px;
+}
+.b1-image {
+  border-radius: 5px;
+}
+.b2-image {
+  border-radius: 15px;
+}
+.b3-image {
+  border-radius: 25px;
+}
+.full-image {
+  border-radius: 50%;
+}

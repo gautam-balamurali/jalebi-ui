@@ -1,0 +1,298 @@
+.button {
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+}
+.button:focus {
+  box-shadow: 0 0 0 5px var(--ghost-red-color);
+  outline: none;
+}
+.button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.button:disabled:hover {
+  opacity: 0.4;
+}
+.primary-button {
+  background: var(--dark-red-color);
+  border: 2px solid var(--dark-red-color);
+  color: white;
+}
+.primary-button:hover {
+  background: var(--dark-red-color);
+  opacity: 0.9;
+}
+.secondary-button {
+  color: var(--dark-red-color);
+  border: 2px solid var(--dark-red-color);
+}
+.secondary-button:hover {
+  color: var(--dark-red-color);
+  border: 2px solid var(--dark-red-color);
+  opacity: 0.9;
+}
+.ghost-button {
+  border: 2px solid white;
+  color: var(--dark-red-color);
+}
+.ghost-button:hover {
+  border: 2px solid #ecfdf5;
+  background: #ecfdf5;
+}
+.underline-button {
+  color: var(--dark-red-color);
+}
+.underline-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.underline-button:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--dark-red-color);
+}
+
+.primaryToSecondary-button {
+  background: var(--dark-red-color);
+  color: white;
+  border: 2px solid var(--dark-red-color);
+}
+.primaryToSecondary-button:hover {
+  color: var(--dark-red-color);
+  border: 2px solid var(--dark-red-color);
+  background: transparent;
+}
+.secondaryToPrimary-button {
+  color: var(--dark-red-color);
+  border: 2px solid var(--dark-red-color);
+  background: transparent;
+}
+.secondaryToPrimary-button:hover {
+  background: var(--dark-red-color);
+  color: white;
+  border: 2px solid var(--dark-red-color);
+}
+
+/* // css for red color buttons */
+
+.primary-buttonred {
+  background: #ef4444;
+  border: 2px solid #ef4444;
+  color: white;
+}
+.primary-buttonred:hover {
+  background: #ef4444;
+  opacity: 0.7;
+}
+.secondary-buttonred {
+  color: #ef4444;
+  border: 2px solid #ef4444;
+}
+.secondary-buttonred:hover {
+  color: #ef4444;
+  border: 2px solid #ef4444;
+  opacity: 0.9;
+}
+.ghost-buttonred {
+  color: #ef4444;
+}
+.ghost-buttonred:hover {
+  background: #fecaca;
+}
+.underline-buttonred {
+  color: #ef4444;
+}
+.underline-buttonred:focus {
+  outline: none;
+  box-shadow: none;
+}
+.underline-buttonred:hover {
+  text-decoration: underline;
+  text-decoration-color: #ef4444;
+}
+
+.primaryToSecondary-buttonred {
+  background: #ef4444;
+  color: white;
+  border: 2px solid #ef4444;
+}
+.primaryToSecondary-buttonred:hover {
+  color: #ef4444;
+  border: 2px solid #ef4444;
+  background: transparent;
+}
+.secondaryToPrimary-buttonred {
+  color: #ef4444;
+  border: 2px solid #ef4444;
+  background: transparent;
+}
+.secondaryToPrimary-buttonred:hover {
+  background: #ef4444;
+  color: white;
+  border: 2px solid #ef4444;
+}
+
+/* Faceboook buttons */
+
+.primary-buttonfb {
+  background: #385898;
+  border: 2px solid #385898;
+  color: white;
+  opacity: 0.9;
+}
+.primary-buttonfb:hover {
+  background: #314e89;
+  opacity: 1;
+}
+.secondary-buttonfb {
+  color: #385898;
+  border: 2px solid #385898;
+}
+.secondary-buttonfb:hover {
+  color: #385898;
+  border: 2px solid #314e89;
+}
+.ghost-buttonfb {
+  color: #385898;
+}
+.ghost-buttonfb:hover {
+  background: #c7d2fe;
+}
+.underline-buttonfb {
+  color: #385898;
+}
+.underline-buttonfb:focus {
+  outline: none;
+  box-shadow: none;
+}
+.underline-buttonfb:hover {
+  text-decoration: underline;
+  text-decoration-color: #314e89;
+}
+
+.primaryToSecondary-buttonfb {
+  background: #385898;
+  color: white;
+  border: 2px solid #385898;
+}
+.primaryToSecondary-buttonfb:hover {
+  color: #385898;
+  border: 2px solid #385898;
+  background: transparent;
+}
+.secondaryToPrimary-buttonfb {
+  color: #385898;
+  border: 2px solid #385898;
+  background: transparent;
+}
+.secondaryToPrimary-buttonfb:hover {
+  background: #385898;
+  color: white;
+  border: 2px solid #385898;
+}
+
+/* Twitter buttons */
+
+.primary-buttontwitter {
+  background: #1da1f2;
+  border: 2px solid #1da1f2;
+  color: white;
+  opacity: 0.9;
+}
+.primary-buttontwitter:hover {
+  background: #1a94da;
+  opacity: 1;
+}
+.secondary-buttontwitter {
+  color: #1da1f2;
+  border: 2px solid #1da1f2;
+}
+.secondary-buttontwitter:hover {
+  color: #1da1f2;
+  border: 2px solid #1a94da;
+}
+.ghost-buttontwitter {
+  color: #1da1f2;
+}
+.ghost-buttontwitter:hover {
+  background: #eff6ff;
+}
+.underline-buttontwitter {
+  color: #1da1f2;
+}
+.underline-buttontwitter:focus {
+  outline: none;
+  box-shadow: none;
+}
+.underline-buttontwitter:hover {
+  text-decoration: underline;
+  text-decoration-color: #1a94da;
+}
+
+.primaryToSecondary-buttontwitter {
+  background: #1da1f2;
+  color: white;
+  border: 2px solid #1da1f2;
+}
+.primaryToSecondary-buttontwitter:hover {
+  color: #1da1f2;
+  border: 2px solid #1da1f2;
+  background: transparent;
+}
+.secondaryToPrimary-buttontwitter {
+  color: #1da1f2;
+  border: 2px solid #1da1f2;
+  background: transparent;
+}
+.secondaryToPrimary-buttontwitter:hover {
+  background: #1da1f2;
+  color: white;
+  border: 2px solid #1da1f2;
+}
+
+/* // size CSS start */
+.xs-button {
+  font-size: var(--xs-font-size);
+  padding: var(--xs-button-padding);
+}
+.sm-button {
+  font-size: var(--sm-font-size);
+  padding: var(--sm-button-padding);
+}
+.md-button {
+  font-size: var(--md-font-size);
+  padding: var(--md-button-padding);
+}
+.lg-button {
+  font-size: var(--lg-font-size);
+  padding: var(--lg-button-padding);
+}
+
+.icon-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-button :nth-child(2) {
+  margin: 0 0 0 0.5rem;
+}
+
+.b1-button {
+  border-radius: 5px;
+}
+
+.b2-button {
+  border-radius: 15px;
+}
+
+.b3-button {
+  border-radius: 25px;
+}
+
+.full-button {
+  border-radius: 50%;
+  padding: 0.75rem;
+}
