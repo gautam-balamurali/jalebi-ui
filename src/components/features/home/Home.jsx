@@ -22,7 +22,7 @@ export default function Home() {
         <span className="home-button-I">
           <Button
             rightIcon={<FiArrowRight />}
-            onClickHandler={() => navigate("/docs")}
+            onClickHandler={() => navigate("/documentation")}
             text="Get Started"
             variant="secondary"
             color="#a52020"
