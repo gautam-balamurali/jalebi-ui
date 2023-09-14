@@ -15,7 +15,7 @@ export const Header = ({ showSidebar, setShowSidebar }) => {
 
         <div className="header-nav">
           <p onClick={() => navigate("/")}>Home</p>
-          {/* <p onClick={() => navigate("/docs")}>Documentation</p> */}
+          {/* <p onClick={() => navigate("/documentation")}>Documentation</p> */}
           <a
             className="git-link"
             href="https://github.com/gautam-balamurali/jalebi-ui"
